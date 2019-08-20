@@ -24,6 +24,7 @@ public class AopTests {
 		 ctx.getBean("sysUserServiceImpl",SysUserService.class);
 		 PageObject<SysUserDeptVo> po=
 		 userService.findPageObjects("admin", 1);
+		 System.out.println(po);
 	 }
 	 
 }
