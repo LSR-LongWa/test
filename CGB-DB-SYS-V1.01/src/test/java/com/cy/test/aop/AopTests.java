@@ -17,7 +17,7 @@ public class AopTests {
 	 @Autowired
 	 private ApplicationContext ctx;
 	 //ClassPathXmlApplicationContext
-	 //AnnotationConfigApplicationContext
+	 //AnnotationConfigApplicationContext(注解形式)
 	 @Test
 	 public void testSysUserService() {
 		 SysUserService userService=
