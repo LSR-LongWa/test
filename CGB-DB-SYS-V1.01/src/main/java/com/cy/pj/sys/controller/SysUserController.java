@@ -58,7 +58,7 @@ public class SysUserController {
          return new JsonResult("save ok");
      }
      /**
-            *  禁用启用
+      *  禁用启用
       * @param valid
       * @param id
       */
