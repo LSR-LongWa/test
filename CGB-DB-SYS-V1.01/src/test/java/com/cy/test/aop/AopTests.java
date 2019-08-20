@@ -26,9 +26,4 @@ public class AopTests {
 		 userService.findPageObjects("admin", 1);
 	 }
 	 
-	 
-	 
-	 
-	 
-	 
 }
